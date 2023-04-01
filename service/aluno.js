@@ -1,6 +1,6 @@
 
 exports.getHome =  (req,res)=>{
-    res.send('Hi!')
+    res.send('Hi!' + new Date())
 }
 
 exports.getAll = (req, res) => {
