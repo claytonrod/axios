@@ -25,7 +25,7 @@ app.use(express.json())
 app.use(cursoRoute)
 app.use(alunoRoute)
 
-app.listen(PORT,'0.0.0.0',()=>{
+app.listen(PORT,()=>{
     //console.log('rondando...porta ${PORT}')
     console.log(`Rondando em .... port ${PORT}`);
 })
